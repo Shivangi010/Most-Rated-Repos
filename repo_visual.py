@@ -11,7 +11,7 @@ print(f"Status code: {r.status_code}")
 
 response_dict = r.json()
 
-print(f"Complete Results: {not response_dict['incomplete_results']}")
+print(f"Complete Results are: {not response_dict['incomplete_results']}")
 
 #Process repository information.
 repo_dicts = response_dict['items']
